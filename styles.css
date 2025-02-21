@@ -1,0 +1,47 @@
+:root {
+  --white: white;
+  --background: rgb(25, 25, 25);
+  --orange: rgb(254, 160, 10);
+  --button: rgb(51, 51, 51);
+  --calAccent: #f1eedc;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--white);
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+  text-align: center;
+}
+h1 {
+  font-size: 3rem;
+  margin-top: 10rem;
+}
+h2 {
+  font-size: 1.5rem;
+}
+img {
+  height: 50%;
+}
+.rps-btn {
+  border-radius: 50%;
+  height: 125px;
+  width: 125px;
+  margin: 5px;
+  border: 3px solid var(--white);
+  background-color: transparent;
+  cursor: pointer;
+}
+#rps-reset-btn {
+  padding: 10px;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.rps-text {
+  font-size: 2rem;
+}
+.rps-result-img {
+  height: 6rem;
+}
