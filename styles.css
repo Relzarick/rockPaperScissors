@@ -1,6 +1,6 @@
 :root {
-  --white: white;
-  --background: rgb(25, 25, 25);
+  --white: black;
+  --background: #efe5dc;
   --orange: rgb(254, 160, 10);
   --button: rgb(51, 51, 51);
   --calAccent: #f1eedc;
