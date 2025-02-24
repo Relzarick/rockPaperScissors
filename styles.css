@@ -16,7 +16,7 @@ body {
   text-align: center;
 }
 h1 {
-  font-size: 3rem;
+  font-size: clamp(2rem, 5vw, 3rem);
   margin-top: 5vh;
 }
 h2 {
@@ -27,21 +27,23 @@ img {
 }
 .rps-btn {
   border-radius: 50%;
-  height: 125px;
-  width: 125px;
+  height: clamp(100px, 10vw, 125px);
+  width: clamp(100px, 10vw, 125px);
   margin: 5px;
   border: 3px solid var(--white);
   background-color: transparent;
   cursor: pointer;
 }
 #rps-reset-btn {
+  background-color: var(--background);
+  border-radius: 12px;
   padding: 10px;
-  font-size: 1.6rem;
+  font-size: clamp(1rem, 5vw, 1.6rem);
   cursor: pointer;
 }
 .rps-text {
-  font-size: 2rem;
+  font-size: clamp(1rem, 2vw, 2rem);
 }
 .rps-result-img {
-  height: 6rem;
+  height: 5rem;
 }
